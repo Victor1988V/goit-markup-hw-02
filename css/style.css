@@ -34,6 +34,23 @@ body {
     line-height: 1.88;
 }
 
+.portfolio-button {
+    background-color: var(--primary-bg-color);
+    color: var(--primary-page-color);
+    font-weight: 500;
+    line-height: 1.6;    
+}
+
+.portfolio-button:hover,
+.portfolio-button:focus {
+    background-color: var(--accent-color);
+    color: var(--primary-bg-color);
+}
+
+.button-list {
+    list-style: none;
+}
+
 .first-title {
     color: var(--primary-page-color);
     font-size: 44px;
@@ -68,8 +85,10 @@ body {
 .three-list, 
 .work-list,
 .person-list,
-.contacts-list  {
+.contacts-list,
+.portfolio {
     list-style: none;
+    font-style: normal;
 }
 
 .person h3 {
@@ -100,6 +119,24 @@ line-height: 1.19;
 .link {
     text-decoration: none;
     color: var(--primary-page-color);
+    
 }
 
+.header-link {
+font-weight: 500;
+line-height: 1.14;
+letter-spacing: 0.02em;
+}
 
+.portfolio-second-title {
+font-weight: 700;
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
+color: #212121;
+}
+
+.portfolio-page {
+font-size: 16px;
+line-height: 1.9;
+}
