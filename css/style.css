@@ -1,0 +1,105 @@
+:root {
+    --accent-color: #2196F3;
+    --primary-text-color: #757575;
+    --primary-bg-color: #FFFFFF;
+    --primary-page-color: #212121;
+}
+
+body {
+    color: var(--primary-text-color);
+    background-color: var(--primary-bg-color);
+    font-family: Roboto;
+    letter-spacing: 0.03em;
+    font-style: 400;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+}
+
+.logo {
+    font-family: Raleway;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.19;
+    }
+
+.button {
+    color: var(--primary-bg-color);
+    background-color: var(--accent-color);
+    border: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+}
+
+.first-title {
+    color: var(--primary-page-color);
+    font-size: 44px;
+    font-weight: 900;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+
+
+.second-title {
+    color: var(--primary-page-color);
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.17;
+    text-align: center;
+    text-transform: uppercase;
+    
+
+}
+
+.three-title {    
+    color: var(--primary-page-color);    
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+}
+
+.three-list, 
+.work-list,
+.person-list,
+.contacts-list  {
+    list-style: none;
+}
+
+.person h3 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+}
+
+.job-title {
+font-size: 16px;
+line-height: 1.19;
+}
+
+.accent {
+    color: var(--accent-color);
+}
+
+.site-nav {
+    color: var(--primary-page-color); 
+    list-style: none;   
+}
+
+.link:hover,
+.link:focus {
+    color: var(--accent-color);
+}
+
+.link {
+    text-decoration: none;
+    color: var(--primary-page-color);
+}
+
+
